@@ -32,6 +32,12 @@ body
     flex: 1;
 }
 
+a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 /*Header Section*/
 .header-container
 {
@@ -171,4 +177,58 @@ ul
 .quote-author
 {
     font-size: 24px;
+}
+
+/*Call To Action Section*/
+.action-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+    margin: 125px 0;
+}
+
+.action-box
+{
+    max-width: fit-content;
+    background-color: #6B5B50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 25px;
+    border-radius: 15px;
+}
+
+.action-text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.action-title
+{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.action-description
+{
+    font-family: 'Voyage';
+    font-size: 22px;
+}
+
+.action-button
+{
+    background-color: #A59182;
+    padding: 14px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.action-button:hover
+{
+    background-color: #b9a393;
 }
