@@ -68,3 +68,57 @@ ul
 {
     color: #b9a393;
 }
+
+/*Hero Section*/
+.hero-container
+{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+    padding: 25px;
+    margin: 125px 0;
+}
+
+.hero-image
+{
+    width: 450px;
+    height: 500px;
+    border-radius: 10%;
+}
+
+.hero-text
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 500px;
+    gap: 8px;
+}
+
+.hero-main-text
+{
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+.hero-title
+{
+    font-size: 52px;
+    font-family: 'Voyage';
+}
+
+.hero-button
+{
+    background-color: #A59182;
+    max-width: fit-content;
+    padding: 14px;
+    border-radius: 20px;
+}
+
+.hero-button:hover
+{
+    background-color: #b9a393;
+}
