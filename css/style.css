@@ -122,3 +122,30 @@ ul
 {
     background-color: #b9a393;
 }
+
+/*Information Section*/
+.info-container
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 52px;
+    padding: 25px;
+    margin: 125px 0;
+}
+
+.info-title
+{
+    font-size: 42px;
+    font-family: 'Voyage';
+}
+
+.card-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
