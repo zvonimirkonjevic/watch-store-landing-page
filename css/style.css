@@ -12,3 +12,15 @@
     font-family: 'Voyage';
     src: url("/fonts/Voyage-Regular.otf") format("opentype");
 }
+
+body
+{
+    background-color: #847468;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Aeonik Pro';
+}
