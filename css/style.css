@@ -232,3 +232,14 @@ ul
 {
     background-color: #b9a393;
 }
+
+/*Footer Section*/
+.footer-container
+{
+    background-color: #524439;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+    padding: 35px;
+}
