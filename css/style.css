@@ -1,0 +1,14 @@
+@font-face 
+{
+    font-family: 'Aeonik Pro';
+    src: url('/fonts/AeonikPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face 
+{
+    font-family: 'Voyage';
+    src: url("/fonts/Voyage-Regular.otf") format("opentype");
+}
